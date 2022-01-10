@@ -40,7 +40,7 @@
       </div>
     </nav>
     <!-- Home -->
-    <section id="home">
+    <section id="home" class="section">
       <img
         src="images/profile.jpg"
         alt="Bogeun's profile photo"
@@ -52,7 +52,7 @@
       <button class="home__contact">Contact Me</button>
     </section>
     <!-- About -->
-    <section id="about">
+    <section id="about" class="section">
       <h1>About me</h1>
       <p>울산대학교 IT융합전공 졸업을 앞두고 있습니다.</p>
       <div class="about__majors">
@@ -60,22 +60,22 @@
           <div class="major__icon">
             <i class="fab fa-html5"></i>
           </div>
-          <div class="major__title">HTML5</div>
-          <div class="major__description">Markup Language</div>
+          <h2 class="major__title">HTML5</h2>
+          <p class="major__description">Markup Language</p>
         </div>
         <div class="major">
           <div class="major__icon">
             <i class="fab fa-css3-alt"></i>
           </div>
-          <div class="major__title">CSS3</div>
-          <div class="major__description">Style sheet Language</div>
+          <h2 class="major__title">CSS3</h2>
+          <p class="major__description">Style sheet Language</p>
         </div>
         <div class="major">
           <div class="major__icon">
             <i class="fab fa-js-square"></i>
           </div>
-          <div class="major__title">Javascript</div>
-          <div class="major__description">Programing Language</div>
+          <h2 class="major__title">Javascript</h2>
+          <p class="major__description">Programing Language</p>
         </div>
       </div>
       <div class="about__jobs">
@@ -85,8 +85,10 @@
             alt="University of Ulsan"
             class="job__logo"
           />
-          <p class="job__name">공과대학 IT융합전공</p>
-          <p class="job__period">2016.03 ~ 2022.02</p>
+          <div id="job__description">
+            <p class="job__name">울산대학교 공과대학 IT융합전공</p>
+            <p class="job__period">2016.03 ~ 2022.02</p>
+          </div>
         </div>
         <div class="job">
           <img
@@ -94,13 +96,15 @@
             alt="DLAB code academy"
             class="job__logo"
           />
-          <p class="job__name">디랩코드아카데미 강사 (아르바이트)</p>
-          <p class="job__period">2021.06 ~ Until</p>
+          <div id="job__description">
+            <p class="job__name">디랩코드아카데미 강사 (아르바이트)</p>
+            <p class="job__period">2021.06 ~ Until</p>
+          </div>
         </div>
       </div>
     </section>
     <!-- Skills -->
-    <section id="skills">
+    <section id="skills" class="section">
       <h1>Skills</h1>
       <h2>Skills & Attributes</h2>
       <p>
@@ -182,7 +186,7 @@
       </div>
     </section>
     <!-- Work -->
-    <section id="work">
+    <section id="work" class="section">
       <h1>My work</h1>
       <h3>Projects</h3>
       <div id="work__cartegories">
@@ -250,7 +254,7 @@
       </div>
     </section>
     <!-- Testimonials -->
-    <section class="testimonials">
+    <section id="testimonials" class="section">
       <h1>Testimonials</h1>
       <h3>See what they say about me</h3>
       <div id="testimonials">
@@ -289,7 +293,7 @@
       </div>
     </section>
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" class="section">
       <h1 id="contact__title">Let's talk</h1>
       <h2 id="contact__email">papoke22@gmail.com</h2>
       <div id="contact__links">
